@@ -3,6 +3,7 @@ body {
   padding: 0;
   background-color: black;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -38,10 +39,33 @@ header {
 }
 
 .icon-2 {
-  margin: 30px;
+  position: relative;
+}
+
+.fa-less-than:hover {
+  color: #ffff;
 }
 .fa-greater-than {
   margin-left: 20px;
+}
+
+.fa-content {
+  position: absolute;
+  font-size: 15px;
+  background: #1f1f1f;
+  border-radius: 5px;
+  padding: 3px;
+  border: 1px solid #1f1f1f;
+  top: 35px;
+  left: -25px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
 }
 
 .header-2 {
