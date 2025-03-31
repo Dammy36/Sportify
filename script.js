@@ -1,5 +1,5 @@
-const icon = document.getElementById("fa-less");
-const faContent = document.getElementById("fa-content");
-icon.addEventListener("click", function () {
-  faContent.classList.toggle("visible");
+const list = document.getElementById("name");
+const items = document.getElementById("account-list");
+list.addEventListener("click", function () {
+  items.classList.toggle("account-list-show");
 });
