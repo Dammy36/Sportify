@@ -237,3 +237,13 @@ li {
 .list-item {
   padding: 15px;
 }
+
+/*main*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+  width: 100%;
+  margin: 0 auto;
+}
