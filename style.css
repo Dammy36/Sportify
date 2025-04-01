@@ -298,6 +298,7 @@ li {
   white-space: nowrap;
   color: #ffff;
   margin-top: 10px;
+  font-size: 15px;
 }
 
 .grid-content .content-2 {
@@ -309,4 +310,23 @@ li {
   align-items: center;
   justify-content: space-between;
   margin-top: 30px;
+}
+
+.grid-item1-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.grid-item1-content {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.grid-item1-content .image-content {
+  padding-left: 15px;
+  color: white;
 }
