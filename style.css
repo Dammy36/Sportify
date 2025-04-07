@@ -253,17 +253,26 @@ li {
 
 .grid-item-1 {
   background: #121212 !important;
-  width: 300px;
+  width: 350px;
   height: 70%;
-  padding: 25px 10px;
   overflow-y: scroll;
   border-radius: 10px;
   overflow-x: hidden;
+  z-index: 1;
+  position: relative;
+  scrollbar-color: #444 #121212;
+  scrollbar-width: thin;
 }
 
-.grid-item-1::-webkit-scrollbar-track {
-  background: #121212 !important;
-  border-radius: 4px;
+.grid-item-1-container {
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+  background: #121212;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+  z-index: 1000;
 }
 
 .frist-grid-content {
@@ -301,7 +310,7 @@ li {
 }
 
 .grid {
-  margin-top: 30px;
+  margin-bottom: 2.5rem;
 }
 
 .grid-content {
@@ -354,14 +363,6 @@ li {
   font-size: 12px;
   margin-top: 10px;
   color: #909090;
-}
-
-.grid-item-1-container {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  position: sticky;
-  top: 0;
-  padding: 10px;
-  background: #121212;
 }
 
 .grid-item1-content {
