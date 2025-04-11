@@ -248,7 +248,8 @@ li {
   cursor: pointer;
 }
 
-.grid-item-1 {
+.grid-item-1,
+.grid-item {
   background: #121212 !important;
   height: 80%;
   overflow-y: scroll;
@@ -439,6 +440,9 @@ li {
   background-position: center;
   opacity: 0.5;
   z-index: -1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  flex: 1;
 }
 
 .img-content {
@@ -453,6 +457,7 @@ li {
   width: 15px;
   height: 15px;
   border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 .custom-check .fa-check {
@@ -461,7 +466,7 @@ li {
 }
 
 .custom-content {
-  display: inline-flex;
+  display: flex;
   align-items: center;
 }
 h1 {
@@ -471,4 +476,119 @@ h1 {
 .h3 {
   font-size: 12px;
   font-weight: bold;
+  padding-left: 5px;
+}
+
+.grid-background {
+  flex: 1;
+  background: linear-gradient(to bottom, #311f1f, #131212);
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.grid-background button {
+  width: 50px;
+  height: 50px;
+  background-color: #1ed760;
+  border-radius: 50%;
+  border: none;
+  margin: 10px;
+}
+
+.button-icon {
+  font-size: 25px;
+  padding: 12px;
+}
+
+.grid-background .grid-content {
+  margin-left: 30px;
+  text-transform: capitalize;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 5px 15px;
+  border-radius: 18px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.grid-background img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+.img-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.img-items-container {
+  display: flex;
+  align-items: center;
+}
+
+.img-items-content {
+  margin-left: 14px;
+}
+
+.img-items-content-span {
+  font-weight: 300;
+  font-size: 14px;
+  color: #777171;
+}
+
+.grid-content-number {
+  margin-right: 20px;
+}
+
+.grid-item-3 img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.grid-item-3-img {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/801/original/adele6.jpg?1744326028);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  z-index: -1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  flex: 1;
+}
+
+.grid-item-3-img h2 {
+  position: absolute;
+  color: #ffff;
+}
+
+.d-flex button {
+  border: 1px solid #fff;
+  border-radius: 16px;
+  background: none;
+  color: #fff;
+  padding: 2px 12px;
 }
