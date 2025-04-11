@@ -246,15 +246,17 @@ li {
   gap: 10px;
   color: #b3b3b3;
   cursor: pointer;
+  flex: 1;
 }
 
 .grid-item-1,
 .grid-item {
   background: #121212 !important;
-  height: 80%;
+  height: 80vh;
   overflow-y: scroll;
   border-radius: 10px;
   overflow-x: hidden;
+  overflow-y: auto;
   z-index: 1;
   position: relative;
   scrollbar-color: #777171 #121212;
@@ -521,7 +523,8 @@ h2 {
   font-weight: bold;
 }
 
-.grid-background img {
+.grid-background img,
+footer img {
   width: 50px;
   height: 50px;
   object-fit: cover;
@@ -591,4 +594,8 @@ ol {
   background: none;
   color: #fff;
   padding: 2px 12px;
+}
+
+footer {
+  margin-top: 20px;
 }
