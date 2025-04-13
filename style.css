@@ -673,4 +673,8 @@ h4 {
   .grid-container {
     grid-template-columns: 1fr;
   }
+  .img-container-content,
+  .grid-item-3-img {
+    height: 50%;
+  }
 }
