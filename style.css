@@ -428,7 +428,7 @@ li {
   color: #ffff;
   padding: 20px;
   overflow: hidden;
-  height: 50%;
+  height: 60%;
 }
 
 .img-container-content::before {
@@ -576,7 +576,7 @@ ol {
 .grid-item-3-img {
   position: relative;
   width: 100%;
-  height: 50%;
+  height: 60%;
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/801/original/adele6.jpg?1744326028);
   background-size: cover;
   background-position: center;
@@ -650,7 +650,7 @@ h4 {
 
   .button-icon {
     font-size: 20px;
-    padding: 8px;
+    padding-left: 8px;
   }
   .icon-2,
   .list-icon,
