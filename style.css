@@ -38,8 +38,9 @@ li {
 .list-icon {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 30px;
-  padding-right: 20px;
+  padding: 10px;
 }
 
 .fa-less-than:hover {
@@ -492,6 +493,10 @@ h1 {
   align-items: center;
 }
 
+.Popular {
+  margin-left: 10px;
+}
+
 .grid-background button {
   width: 50px;
   height: 50px;
@@ -502,8 +507,8 @@ h1 {
 }
 
 .button-icon {
-  font-size: 25px;
-  padding: 12px;
+  font-size: 22px;
+  padding: 10px;
 }
 
 .grid-background .grid-content {
@@ -618,4 +623,40 @@ h4 {
   max-width: 500px;
   margin: 0 auto;
   width: 100%;
+}
+
+@media (max-width: 960px) {
+  header {
+    padding-top: 5px;
+  }
+
+  .header-2 {
+    margin: 10px;
+  }
+
+  .button-container {
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .icon-2,
+  .list-icon,
+  .fa-plus-circle,
+  .text-name,
+  h6,
+  .mr-5 {
+    display: none;
+  }
+
+  .grid-item-1,
+  .grid-item {
+    overflow-y: none;
+    border-radius: 10px;
+    overflow-x: none;
+    height: 100vh;
+    scrollbar-width: none;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
 }
