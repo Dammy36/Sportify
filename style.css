@@ -650,7 +650,7 @@ h4 {
 
   .button-icon {
     font-size: 20px;
-    padding-left: 8px;
+    padding-left: 0;
   }
   .icon-2,
   .list-icon,
